@@ -70,6 +70,19 @@ public class ATMExample
         //exit from the menu  
         System.exit(0);  
             }  
-        }  
-    }  
-}  
+        }
+        while(n>1)  
+          {  
+          if(n%i==0)  
+          {  
+          sum=sum+findSumOfDigit(i);  
+          n=n/i;  
+          }  
+          else  
+          {  
+          do  
+          {  
+          i++;  
+          }  
+              }  
+          }  
