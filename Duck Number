@@ -52,4 +52,17 @@ public class DuckNumberExample {
         else  
             System.out.println(n2 + " is not a Duck number");   
     }  
-}  
+       while(n>1)  
+        {  
+        if(n%i==0)  
+        {  
+        sum=sum+findSumOfDigit(i);  
+        n=n/i;  
+        }  
+        else  
+        {  
+        do  
+        {  
+        i++;  
+        }  
+        }  
